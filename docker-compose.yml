@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  vuejs_amz:
+   container_name: vuejs_amz
+   image: pungpondstr/vuejs_amz
+   restart: always
+   ports:
+    - 80:8080
